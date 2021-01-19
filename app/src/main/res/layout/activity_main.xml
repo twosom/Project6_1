@@ -20,14 +20,15 @@
             android:gravity="center"
             android:textSize="20dp" />
 
-        <Button
-            android:id="@+id/btnStart"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="예약 시작" />
+<!--        <Button-->
+<!--            android:id="@+id/btnStart"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="예약 시작" />-->
     </LinearLayout>
 
     <RadioGroup
+        android:id="@+id/rGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -53,8 +54,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <CalendarView
-                android:id="@+id/calendarView1"
+            <DatePicker
+                android:id="@+id/datepickerView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:showWeekNumber="false" />
@@ -73,11 +74,11 @@
         android:background="#CCCCCC"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/btnEnd"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="예약완료" />
+<!--        <Button-->
+<!--            android:id="@+id/btnEnd"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="예약완료" />-->
 
         <TextView
             android:id="@+id/tvYear"
